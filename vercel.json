@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/tmdb/(.*)", "destination": "/api/tmdb?path=$1" }
+  ]
+}
